@@ -6,6 +6,7 @@ Pretend you are designing your page for elementary school teachers to use in 
 
 ![](https://i.snag.gy/xf0HnX.jpg)
 
+
 ### Getting Started ###
 
 You can use the following HTML document as a starting point:
