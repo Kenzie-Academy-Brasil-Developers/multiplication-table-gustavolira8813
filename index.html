@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quadro Da Multiplicação</title>
+  </head>
+
+  <body>
+    <h1>Quadro da Multiplicação</h1>
+      <p>Pressione CRTL + SHIFT + J para verificar o resultado no <strong>
+        console</strong>.
+      </p>
+      
+    
+    <script>
+      function tabuada(n) {
+        let x = [];
+                
+        for (let i = 0; i <= n; i++) {
+            x[i] = [];
+        }
+        for(let i = 0; i <= n; i++){
+          for(let j = 0; j <= n; j++){
+            x[i][j] = i * j;
+          }
+        }
+        console.table(x);
+      }
+      tabuada(16)
+      
+    </script>
+  </body>
+</html>
+
+
